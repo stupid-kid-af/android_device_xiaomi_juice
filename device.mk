@@ -22,7 +22,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/juice/juice-vendor.mk)
 
 # Inherit QTI Bluetooth
-$(call inherit-product, vendor/qcom/opensource/commonsys-intf/bluetooth/bt-system-opensource-product.mk)
+
 
 # Soong Namespace
 PRODUCT_SOONG_NAMESPACES += \
