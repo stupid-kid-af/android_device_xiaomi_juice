@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_juice.mk
+    $(LOCAL_DIR)/octavi_juice.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_juice-user \
-    arrow_juice-userdebug \
-    arrow_juice-eng
+    octavi_juice-user \
+    octavi_juice-userdebug \
+    octavi_juice-eng
